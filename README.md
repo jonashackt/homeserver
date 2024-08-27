@@ -65,6 +65,15 @@ But Talos is also immutable, which is great for beeing used as a base for Kubern
 Maybe [I simply start with Manjaro (as my most comfortalbe distro) for the moment](https://www.reddit.com/r/kubernetes/comments/qvvq7a/what_is_the_best_linux_os_to_deploy_kubernetes/) - and switch to a specialized Container OS later.
 
 
+# Useful tweaks
+
+If you want your homeserver to automatically restart in case of a power outtage, you might want to check a box in the UEFI setup.
+
+In my case where I run the Asus ExpertCenter PN42 the option for `Restore AC Power Loss` resides under `Advanced` / `APM Configuration` (NOT under `Boot`!). See [the manual also](https://www.asus.com/support/faq/1049855/).
+
+Now if for some reason your server has no power for some time, but power comes back, it will automatically restart - even if you're on holiday etc.
+
+
 
 # Links
 
